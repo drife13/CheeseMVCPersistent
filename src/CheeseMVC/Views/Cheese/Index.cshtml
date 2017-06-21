@@ -1,6 +1,8 @@
 ﻿@model List<CheeseMVC.Models.Cheese>
 
-<h1>@ViewBag.Title</h1>
+<h1>Cheeses</h1>
+
+<p><a asp-controller="Cheese" asp-action="Add">Add</a> | <a asp-controller="Cheese" asp-action="Remove">Remove</a></p>
 
 <table class="table">
 
@@ -24,5 +26,3 @@
 {
     <p>No cheeses yet!</p>
 }
-
-<p><a asp-controller="Cheese" asp-action="Add">Add</a> | <a asp-controller="Cheese" asp-action="Remove">Remove</a></p>
