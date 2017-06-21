@@ -10,6 +10,7 @@ namespace CheeseMVC.ViewModels
 {
     public class AddMenuItemViewModel
     {
+        [Display(Name="Cheese")]
         public int CheeseID { get; set; }
         public int MenuID { get; set; }
 
